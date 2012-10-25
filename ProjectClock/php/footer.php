@@ -1,3 +1,10 @@
+<!--
+Project Clock app
+25.10.2012 Michael Pursell
+php footer file for inclusion in all Project Clock pages
+-->		
+
+
 		<div id='bottomLeft'>
 				<h3>Why?</h3>
 				<p>It's easy to lose track of time when working on projects.  Entering approximate times into 
@@ -11,5 +18,6 @@
 			</div>
 			<div id='bottomLeft'>
 				<h3>Source Code</h3>
-				<p>This app is written in PHP.  The source code is available on GitHub <a href="#">here</a></p>
+				<p>This app is written in PHP.  The source code is available on GitHub 
+					<a href="https://github.com/mpursell/php/tree/master/ProjectClock">here</a></p>
 			</div>
