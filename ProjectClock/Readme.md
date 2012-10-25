@@ -1,6 +1,6 @@
 Project Clock application.
 
-This is a small we app to run a clock for use with project timesheets.  Users are able to enter username, client
+This is a small web app to run a clock for use with project timesheets.  Users are able to enter username, client
 cost code and project code.  The app will time the work then output the result so it can be copied / pasted
 into a timesheet.
 
