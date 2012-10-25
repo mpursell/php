@@ -1,0 +1,183 @@
+#wrapper{
+
+	height:100%;
+	width: 100%;
+	position: relative;
+}
+
+#top{
+	height:450px;
+	background-color: green;
+
+}
+
+#topStopped{
+	height:450px;
+	background-color: red;
+
+}
+
+#bottom{
+
+		width: 100%;
+		background-color: #EDE6E9;
+}
+
+
+#topLeft{
+	text-align: left;
+	padding-left: 50px;
+	position: relative;
+	width: 50%;
+	height: 400px;
+	top: 75px;
+	
+}
+
+#topRight{
+	text-align: center;
+	position: relative;
+	top: -425px;
+	width: 50%;
+	height: 0px;
+	float:right;
+	color: #FFF;
+	
+}
+
+#clock{
+
+	height:275px;
+	border:dashed;
+	border-color: #FFF;
+	border-radius: 15px;
+	margin-right: 10px;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+#clock form{
+
+	text-align: left;
+}
+
+#bottomLeft{
+	height: 250px;
+	width: 30%;
+	float:left;
+	text-align: left;
+	padding: 10px;
+
+
+	
+}
+
+#bottomMiddle{
+	position: relative;
+	height: 100%;
+	width: 33%;
+	float: left;
+	background-color: red;
+
+}
+
+#bottomRight{
+	height: 100px;
+	width: 33%;
+	float:left;
+	border-left: dashed;
+
+}
+h1{
+
+	font-family: "Trebuchet MS";
+	font-size: 80;
+	color: #FFF;
+
+}
+
+h3{
+
+	font-family: "Trebuchet MS";
+	font-size: 18;
+	color: #FFF;
+}
+
+#bottomLeft h3{
+	color:#454344;
+	text-align: center;
+}
+
+#bottomLeft p{
+	color:#454344;
+
+}
+
+
+body{
+	font-family: "Trebuchet MS";
+	color: #FFF;
+	font-size: 12px;
+
+}
+
+table{
+
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a{
+	font-family: "Trebuchet MS";
+	color:red;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+input{
+
+	border 5px solid white;
+	border-radius: 5px;
+	background-color: #DBD7D9;
+
+}
+
+input:focus{
+	background-color: #FFF;
+}
+
+.button{
+	background-color: green;
+	color:#FFF;
+	width:100px;
+	height:50px;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+.button:hover{
+	background-color: #FFF;
+	color:green;
+
+}
+
+.buttonStopped{
+	background-color: red;
+	color:#FFF;
+	width:150px;
+	height:50px;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+.buttonStopped:hover{
+	background-color: #FFF;
+	color:red;
+
+}
