@@ -4,8 +4,7 @@ This is a small web app to run a clock for use with project timesheets.  Users a
 cost code and project code.  The app will time the work then output the result so it can be copied / pasted
 into a timesheet.
 
-It uses PDO prepared statements to write to and query the database, however beyond this, no special hardening has
-been done as of yet.  It's currently a quick hack to solve an annoying problem with my timesheets!
+It's a quick hack to solve an annoying problem with my timesheets!
 
 Note: You'll need to create your own php file called "dbconnection.php" that contains the PDO connection details
 for your database. 
